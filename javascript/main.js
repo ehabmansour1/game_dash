@@ -22,3 +22,9 @@ function method4() {
 }
 
 // -----------------------------------end menu
+// -----------------------------------start loader
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function () {
+  loader.style.display = "none";
+});
+// -----------------------------------end loader
